@@ -37,6 +37,21 @@ nav {
         border-radius: 12px;
         border-color: #B3B3B3;
     }
+
+    @media (min-width: 768px) {
+        .logoleft {
+            width: 70px;
+        }
+
+        .logoright {
+            width: 100px;
+        }
+
+
+
+
+    }
+
 }
 
 
@@ -71,13 +86,22 @@ main {
         width: 250px;
     }
 
+     @media (min-width: 768px) {
+            .community {
+                margin-top: 10px;
+                width: 300px;
+            }
+            
+    }
+
+
 }
 
 .products {
     .background {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows:repeat(3, 1fr);
         gap: 5px;
         background-color: lightgray;
         margin-top: 0;
@@ -111,55 +135,95 @@ main {
             }
         }
     }
-}
-
-footer {
-    margin-top: 20px;
-
-    .footersection {
-        background-color: #1E1E1E;
-        color: #FFFFFF;
-    }
-
-    .titel-list {
-        font-weight: bold;
-    }
-
-    .Logofooter {
-        width: 150px;
-    }
-
-
-
-
-    .footernavigation {
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-
-
-    }
-
-
-    .legalpages {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: #1E1E1E;
-        color: #B3B3B3;
-
-    }
-
-    form {
-        background-color: #E6B600;
-        color: #FFFFFF;
-    }
 
     @media (min-width: 768px) {
-        .footernavigatie {
-            grid-template-columns: repeat(6, 1fr);
+        .background {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+
+            li {
+                width: 250px;
+                height: 200px;
+                justify-self: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
         }
 
 
+    }}
+
+
+    footer {
+        margin-top: 20px;
+
+        .footersection {
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+        }
+
+        .titel-list {
+            font-weight: bold;
+        }
+
+        .Logofooter {
+            width: 150px;
+        }
+
+
+
+
+        .footernavigation {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+
+
+        }
+
+
+        .legalpages {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: #1E1E1E;
+            color: #B3B3B3;
+
+        }
+
+        form {
+            background-color: #E6B600;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+
+
+
+        @media (min-width: 768px) {
+            .footernavigation {
+                grid-template-columns: repeat(5, 1fr);
+            }
+            .legalpages{
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+            }
+
+            .legal{
+                margin-left: 40px;
+            }
+            
+
+
+        }
     }
-}
