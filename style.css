@@ -47,6 +47,11 @@ nav {
             width: 100px;
         }
 
+        .button{
+            height: 30px;
+            width: 150px;
+        }
+
 
 
 
@@ -87,9 +92,25 @@ main {
     }
 
      @media (min-width: 768px) {
+        
             .community {
                 margin-top: 10px;
-                width: 300px;
+                width: 350px;
+            }
+            h1{
+                font-size: 50px;
+            }
+
+            #search{
+                width: 220px;
+                font-size: 20px;
+            }
+            .button2{
+                width: 50px;
+                font-size: 15px;
+            }
+            label{
+                font-size: 20px;
             }
             
     }
@@ -137,6 +158,10 @@ main {
     }
 
     @media (min-width: 768px) {
+
+        h2{
+            font-size: 30px;
+        }
         .background {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -211,6 +236,7 @@ main {
 
 
         @media (min-width: 768px) {
+            
             .footernavigation {
                 grid-template-columns: repeat(5, 1fr);
             }
