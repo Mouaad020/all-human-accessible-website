@@ -12,12 +12,20 @@ De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+In mijn project heb ik geprobeerd om me te houden aan figna, maar ik heb een beetje mijn eigen draai eraan gegeven. Ik heb me wel gehouden aan de kleur die de opdrachtgever wou.
+
+Screenshot van een deel van mijn website:
+
+<img width="398" height="924" alt="Schermafbeelding 2025-10-29 124901" src="https://github.com/user-attachments/assets/b262d778-1407-4cf2-8c9c-26d623c64680" />
+
+Link naar mijn HTML:
+https://github.com/Mouaad020/all-human-accessible-website/blob/main/index.html
+
+Link naar mijn CSS:
+https://github.com/Mouaad020/all-human-accessible-website/blob/main/style.css
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb HTML en CSS gebruikt voor dit project. Ik heb mij gehouden aan eerst mobile te werken en daarna naar grotere schermen met media quary.
 
 ## Bronnen
 
