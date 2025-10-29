@@ -128,7 +128,7 @@ main {
 }
 
 .products {
-    margin-bottom: 30px;
+    
 
     .background {
         display: grid;
@@ -230,7 +230,7 @@ main {
 
 
     footer {
-        margin-top: 20px;
+        
 
         .footersection {
             background-color: beige;
@@ -267,11 +267,16 @@ main {
         }
 
         form {
+            padding: 20px;
             background-color: #466EBF;
             color: #FFFFFF;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+        }
+        .email-input::placeholder{
+            color: black;
+
         }
 
 
